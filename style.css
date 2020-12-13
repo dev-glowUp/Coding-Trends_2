@@ -40,7 +40,9 @@ This code was made with 🤍 for dev.glowUp Youtube Channel
     cursor: -webkit-image-set(url(i-circle--orange@2x.png) 1x, url(i-circle--orange@2x.png) 2x) 7 7,pointer;
 }
 
-.mainBody {
+/* BODY */
+
+.main-body {
     background: linear-gradient(to top left, var(--background1), var(--background2));
     height: 100vh;
     padding: 0 7rem;
@@ -53,6 +55,7 @@ This code was made with 🤍 for dev.glowUp Youtube Channel
     counter-reset: section;
 }
 
+/* TEXT */
 
 .text-tag > p {
     position: relative;
@@ -73,9 +76,9 @@ This code was made with 🤍 for dev.glowUp Youtube Channel
     content: counter(section,decimal-leading-zero);
 }
 
-/* HOVER IMAGE EFFECT */
+/* IMAGE POSITIONING */
 
-.tag-image {
+.img-container {
     position: relative;
     z-index: 0;
     top: -230px;
