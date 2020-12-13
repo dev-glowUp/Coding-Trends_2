@@ -59,7 +59,7 @@
 .tag-image {
     position: relative;
     z-index: 0;
-    top: -150px;
+    top: -230px;
     left: 15px;
     opacity: 0;
     visibility: hidden;
