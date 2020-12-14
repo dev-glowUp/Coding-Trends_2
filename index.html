@@ -30,21 +30,21 @@ This code was made with 🤍 for dev.glowUp Youtube Channel
     <div class="main-body hasCursor">
         
         <div class="text-tag">
-            <p onmouseover="mouseOver(getImage1)" onmouseout="mouseOut(getImage1)" class="hasCursorORANGE">Ceramics</p>
+            <p onmouseover="imageIn(getImage1)" onmouseout="imageOut(getImage1)" class="hasCursorORANGE">Ceramics</p>
             <div class="img-container">
                 <img src="/img_1.png" alt="Ceramic Vase">
             </div>
         </div>  
 
         <div class="text-tag">
-            <p onmouseover="mouseOver(getImage2)" onmouseout="mouseOut(getImage2)" class="hasCursorORANGE">Oil Painting</p>
+            <p onmouseover="imageIn(getImage2)" onmouseout="imageOut(getImage2)" class="hasCursorORANGE">Oil Painting</p>
             <div class="img-container">
                 <img src="/img_2.jpg" alt="Classic painting - The Girl with a Pearl Earing">
             </div>
         </div> 
 
         <div class="text-tag">
-            <p onmouseover="mouseOver(getImage3)" onmouseout="mouseOut(getImage3)" class="hasCursorORANGE">Sculpture</p>
+            <p onmouseover="imageIn(getImage3)" onmouseout="imageOut(getImage3)" class="hasCursorORANGE">Sculpture</p>
             <div class="img-container">
                 <img src="/img_3.png" alt="Classic Greek Sculpute of a bust">
             </div>
@@ -58,13 +58,13 @@ This code was made with 🤍 for dev.glowUp Youtube Channel
         var getImage2 = document.getElementsByClassName("img-container") [1];
         var getImage3 = document.getElementsByClassName("img-container") [2];
 
-        function mouseOver(img) {
+        function imageIn(img) {
             img.style.opacity = "1";
             img.style.visibility = "visible";
             img.style.transition = "opacity .5s";
         }
 
-        function mouseOut(img) {
+        function imageOut(img) {
             img.style.opacity = "0";
             img.style.visibility = "hidden";
             img.style.transition = "opacity .5s";
